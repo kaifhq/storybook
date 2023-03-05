@@ -20,7 +20,7 @@
     "babel-loader": "^8.3.0"
   },
   "dependencies": {
-    "@kaifhq/ds": "^0.0.2"
+    "@kaifhq/ds": "^0.0.3"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",

@@ -8,7 +8,7 @@ export default {
 }
 
 export const Vertical = (({dt, dd}) => {
-  return `<dl class="vertical text-secondary"><dt>${dt}</dt><dd>${dd}</dd></dl>`
+  return `<dl class="data-list vertical text-secondary"><dt>${dt}</dt><dd>${dd}</dd></dl>`
 }).bind({})
 Vertical.args = {
   dt: 'The address',
@@ -16,7 +16,7 @@ Vertical.args = {
 }
 
 export const Horizontal = (({dt, dd}) => {
-  return `<dl class="text-secondary"><dt>${dt}</dt><dd>${dd}</dd></dl>`
+  return `<dl class="data-list text-secondary"><dt>${dt}</dt><dd>${dd}</dd></dl>`
 }).bind({})
 Horizontal.args = {
   dt: 'Opening hours:',

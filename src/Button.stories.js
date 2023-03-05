@@ -13,7 +13,7 @@ Big.args = {
 }
 
 export const Small = (({ content }) =>
-  `<a class="button">${content}</a>`
+  `<a class="button text-secondary">${content}</a>`
 ).bind({})
 Small.args = {
   content: 'EN',
